@@ -106,7 +106,7 @@ async def commands(message):
 
 async def bot(message):
 	mess = message.content
-	if('bot' in mess or 'BOT' in mess):
+	if 'bot' in mess or 'BOT' in mess or 'Bot' in mess:
 		if 'bad' in mess or 'mean' in mess or 'Bad' in mess or 'Mean' in mess:
 			await message.channel.send(">:[")
 		elif 'good' in mess or 'nice' in mess or 'best' in mess or 'Good' in mess or 'Nice' in mess or 'Best' in mess:
