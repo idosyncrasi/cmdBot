@@ -136,7 +136,7 @@ async def cjs(message):
 
 
 def main():
-	client.run('NzU5NTA1NzEzNTA4MTIyNjU0.X2-e0Q.sckgbE5gWur4vetRPyYNSvNi--s')
+	client.run()
 
 if __name__ == '__main__':
 	main()
